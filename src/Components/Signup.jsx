@@ -1,7 +1,9 @@
+import { Link } from "react-router-dom"
+
 const Signup = () => {
   return (
     <div>
-<div className="bg-white relative lg:py-20">
+<div className="bg-white relative ">
   <div className="flex flex-col items-center justify-between pt-0 pr-10 pb-0 pl-10 mt-0 mr-auto mb-0 ml-auto max-w-7xl
       xl:px-5 lg:flex-row">
     <div className="flex flex-col items-center w-full pt-5 pr-10 pb-20 pl-10 lg:pt-20 lg:flex-row">
@@ -39,6 +41,14 @@ const Signup = () => {
               <a className="w-full inline-block pt-4 pr-5 pb-4 pl-5 text-xl font-medium text-center text-white bg-indigo-500
                   rounded-lg transition duration-200 hover:bg-indigo-600 ease">Submit</a>
             </div>
+            <Link to={'/login'} className="inline-flex items-center font-bold text-blue-500 hover:text-blue-700 text-xs text-center">
+        <span className="">
+          <svg className="h-6 w-6" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
+            <path d="M18 9v3m0 0v3m0-3h3m-3 0h-3m-2-5a4 4 0 11-8 0 4 4 0 018 0zM3 20a6 6 0 0112 0v1H3v-1z" />
+          </svg>
+        </span>
+        <span className="ml-2">Login into existing account?</span>
+      </Link>
           </div>
         </div>
       
