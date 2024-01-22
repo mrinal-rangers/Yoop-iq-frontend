@@ -2,6 +2,7 @@
 
 TO RUN CODE ON YOUR LOCAL MACHINE
 USE 
+npm install
 npm run dev
 
 
