@@ -1,12 +1,13 @@
 import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
+import { Link } from 'react-router-dom'
 
 const navigation = [
-  { name: 'Dashboard', href: '#', current: true },
-  { name: 'Team', href: '#', current: false },
-  { name: 'Projects', href: '#', current: false },
-  { name: 'Calendar', href: '#', current: false },
+  { name: 'Dashboard', current: true },
+  { name: 'Team',  current: false },
+  { name: 'Projects',  current: false },
+  { name: 'Calendar' , current: false },
 ]
 
 function classNames(...classes) {
@@ -33,30 +34,32 @@ export default function Example() {
                 </Disclosure.Button>
               </div>
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
-                <div className="flex flex-shrink-0 items-center">
+              <Link to={'/'}>
+              <div className="flex flex-shrink-0 items-center">
                   <img
-                    className="h-8 w-auto"
-                    src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
+                    className="h-8 w-auto filter grayscale-100  bg-grey-500"
+                    src="https://static.wixstatic.com/media/56f990_071dded304f345678e54f0372aa663b5~mv2.png/v1/fill/w_216,h_200,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/56f990_071dded304f345678e54f0372aa663b5~mv2.png"
                     alt="Your Company"
                   />
                 </div>
-                <div className="hidden sm:ml-6 sm:block">
-                  <div className="flex space-x-4">
-                    {navigation.map((item) => (
-                      <a
-                        key={item.name}
-                        href={item.href}
-                        className={classNames(
-                          item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
-                          'rounded-md px-3 py-2 text-sm font-medium'
-                        )}
-                        aria-current={item.current ? 'page' : undefined}
-                      >
-                        {item.name}
-                      </a>
-                    ))}
+              </Link>
+
+              <Link to={'/login'}>
+              <div className="hidden sm:ml-4 sm:block ">
+                  <div className="text-white  hover:bg-gray-700 rounded-md px-3 py-2 text-sm font-medium">
+                    Login
                   </div>
                 </div>
+              </Link>
+
+              <Link to={'/pricing'}>
+              <div className="hidden sm:ml-6 sm:block">
+                  <div className="text-white  hover:bg-gray-700 rounded-md px-3 py-2 text-sm font-medium">
+                    Pricing
+                  </div>
+                </div>
+              </Link>
+               
               </div>
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                 <button
