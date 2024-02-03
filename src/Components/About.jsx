@@ -1,12 +1,14 @@
 
 import Clients from './Clients'
 import Testimonials from './Testimonials'
-import Cards from './Cards'
+import Animated from './Animated'
+import Timeline from './Timeline'
 const About = () => {
   return (
     <div>
-      <Cards/>
+      <Animated/>
       <Clients/>
+      <Timeline/>
       <Testimonials/>
     </div>
   )
