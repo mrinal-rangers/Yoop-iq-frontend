@@ -1,7 +1,7 @@
 
 const Clients = () => {
   return (
-<div className="flex overflow-hidden space-x-16  h-16 group mt-8">
+<div className="flex overflow-hidden space-x-16  h-16 group mt-8 mb-8">
   <div className="flex space-x-16 animate-loop-scroll group-hover:paused">
     <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/8ee9f161-df19-4fa7-a2a6-edf9acf0e0d6?apiKey=7e8b177c7c374d8abaf3aebf27f1c17d&" className="max-w-none" alt="Image 1" />
     <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/80480f8a-69ad-4c30-88ba-f4e7ee08fc51?apiKey=7e8b177c7c374d8abaf3aebf27f1c17d&" className="max-w-none" alt="Image 2" />
