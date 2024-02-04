@@ -2,7 +2,7 @@
 
 const FAQ = () => {
   return (
-    <div>
+    <div className="mb-8">
 <div className="max-w-screen-xl mx-auto px-5 bg-white min-h-sceen">
 	<div className="flex flex-col items-center">
 		<h2 className="font-bold text-5xl mt-5 tracking-tight">

@@ -19,7 +19,7 @@ const Timeline = () => {
             <div className="container mx-auto w-full h-full">
             <div className="relative wrap overflow-hidden p-10 h-full">
                  
-                <div className="bg-blue-100/80  w-2 h-[80vh] ml-[25vw] absolute" > </div>
+                <div className="bg-blue-100/80  w-2 h-[150vh] ml-[40vw] md:ml-[25vw] md:h-[80vh] absolute " > </div>
 
                 <div className="mb-8 flex justify-between items-center w-full right-timeline">
                 <div className="order-1 w-5/12"></div>
