@@ -4,6 +4,7 @@ import Testimonials from './Testimonials'
 import Animated from './Animated'
 import Timeline from './Timeline'
 import Landing from './Landing'
+import FAQ from './FAQ'
 const About = () => {
   return (
     <div>
@@ -12,6 +13,7 @@ const About = () => {
       <Timeline/>
       <Testimonials/>
       <Clients/>
+      <FAQ/>
     </div>
   )
 }
