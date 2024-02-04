@@ -3,85 +3,95 @@
 const FAQ = () => {
   return (
     <div>
-        <ul className="w-[80vw] ml-[10vw] mb-4" >
-            <li>
-                <details className="group">
-                    <summary className="flex items-center gap-3 px-4 py-3 font-medium marker:content-none hover:cursor-pointer">
-                        <svg className="w-5 h-5 text-gray-500 transition group-open:rotate-90" xmlns="http://www.w3.org/2000/svg"
-                            width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                            <path fillRule="evenodd"
-                                d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z">
-                            </path>
-                        </svg>
-                        <span>What am I getting as a Premium Member?</span>
-                    </summary>
+<div className="max-w-screen-xl mx-auto px-5 bg-white min-h-sceen">
+	<div className="flex flex-col items-center">
+		<h2 className="font-bold text-5xl mt-5 tracking-tight">
+			FAQ
+		</h2>
+		<p className="text-neutral-500 text-xl mt-3">
+			Frequenty asked questions
+		</p>
+	</div>
+	<div className="grid divide-y divide-neutral-200 max-w-xl mx-auto mt-8 mb-4">
+		<div className="py-5">
+			<details className="group">
+				<summary className="flex justify-between items-center font-medium cursor-pointer list-none">
+					<span> What is a SAAS platform?</span>
+					<span className="transition group-open:rotate-180">
+                <svg fill="none" height="24" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
+</svg>
+              </span>
+				</summary>
+				<p className="text-neutral-600 mt-3 group-open:animate-fadeIn">
+                 SAAS platform is a cloud-based software service that allows users to access
+					and use a variety of tools and functionality.
+				</p>
+			</details>
+		</div>
+        <div className="py-5">
+			<details className="group">
+				<summary className="flex justify-between items-center font-medium cursor-pointer list-none">
+					<span> What is a SAAS platform?</span>
+					<span className="transition group-open:rotate-180">
+                <svg fill="none" height="24" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
+</svg>
+              </span>
+				</summary>
+				<p className="text-neutral-600 mt-3 group-open:animate-fadeIn">
+                 SAAS platform is a cloud-based software service that allows users to access
+					and use a variety of tools and functionality.
+				</p>
+			</details>
+		</div>
+        <div className="py-5">
+			<details className="group">
+				<summary className="flex justify-between items-center font-medium cursor-pointer list-none">
+					<span> What is a SAAS platform?</span>
+					<span className="transition group-open:rotate-180">
+                <svg fill="none" height="24" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
+</svg>
+              </span>
+				</summary>
+				<p className="text-neutral-600 mt-3 group-open:animate-fadeIn">
+                 SAAS platform is a cloud-based software service that allows users to access
+					and use a variety of tools and functionality.
+				</p>
+			</details>
+		</div>
+        <div className="py-5">
+			<details className="group">
+				<summary className="flex justify-between items-center font-medium cursor-pointer list-none">
+					<span> What is a SAAS platform?</span>
+					<span className="transition group-open:rotate-180">
+                <svg fill="none" height="24" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
+</svg>
+              </span>
+				</summary>
+				<p className="text-neutral-600 mt-3 group-open:animate-fadeIn">
+                 SAAS platform is a cloud-based software service that allows users to access
+					and use a variety of tools and functionality.
+				</p>
+			</details>
+		</div>
+        <div className="py-5">
+			<details className="group">
+				<summary className="flex justify-between items-center font-medium cursor-pointer list-none">
+					<span> What is a SAAS platform?</span>
+					<span className="transition group-open:rotate-180">
+                <svg fill="none" height="24" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
+</svg>
+              </span>
+				</summary>
+				<p className="text-neutral-600 mt-3 group-open:animate-fadeIn">
+                 SAAS platform is a cloud-based software service that allows users to access
+					and use a variety of tools and functionality.
+				</p>
+			</details>
+		</div>
+		
+	</div>
+</div>
 
-                    <article className="px-4 pb-4">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et ipsum sapien. Vestibulum molestie
-                            porttitor augue vitae vulputate. Aliquam nec ex maximus, suscipit diam vel, tristique tellus.
-                        </p>
-                    </article>
-                </details>
-            </li>
-            <li>
-                <details className="group">
-                    <summary className="flex items-center gap-3 px-4 py-3 font-medium marker:content-none hover:cursor-pointer">
-                        <svg className="w-5 h-5 text-gray-500 transition group-open:rotate-90" xmlns="http://www.w3.org/2000/svg"
-                            width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                            <path fillRule="evenodd"
-                                d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z">
-                            </path>
-                        </svg>
-                        <span>What am I getting as a Premium Member?</span>
-                    </summary>
-
-                    <article className="px-4 pb-4">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et ipsum sapien. Vestibulum molestie
-                            porttitor augue vitae vulputate. Aliquam nec ex maximus, suscipit diam vel, tristique tellus. </p>
-                    </article>
-                </details>
-            </li>
-            <li>
-                <details className="group">
-                    <summary className="flex items-center gap-3 px-4 py-3 font-medium marker:content-none hover:cursor-pointer">
-                        <svg className="w-5 h-5 text-gray-500 transition group-open:rotate-90" xmlns="http://www.w3.org/2000/svg"
-                            width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                            <path fillRule="evenodd"
-                                d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z">
-                            </path>
-                        </svg>
-                        <span>What am I getting as a Premium Member?</span>
-                    </summary>
-
-                    <article className="px-4 pb-4">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et ipsum sapien. Vestibulum molestie
-                            porttitor augue vitae vulputate. Aliquam nec ex maximus, suscipit diam vel, tristique tellus. </p>
-                    </article>
-                </details>
-            </li>
-            <li>
-                <details className="group">
-                    <summary className="flex items-center gap-3 px-4 py-3 font-medium marker:content-none hover:cursor-pointer">
-                        <svg className="w-5 h-5 text-gray-500 transition group-open:rotate-90" xmlns="http://www.w3.org/2000/svg"
-                            width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                            <path fillRule="evenodd"
-                                d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z">
-                            </path>
-                        </svg>
-                        <span>What am I getting as a Premium Member?</span>
-                    </summary>
-
-                    <article className="px-4 pb-4">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et ipsum sapien. Vestibulum molestie
-                            porttitor augue vitae vulputate. Aliquam nec ex maximus, suscipit diam vel, tristique tellus. </p>
-                    </article>
-                </details>
-            </li>
-        </ul>
     </div>
   )
 }
